@@ -1,29 +1,5 @@
 # eMobilis Dishes
 
-## Overview
-
-eMobilis Dishes is a full-stack dish management application built to demonstrate practical CRUD development with React, Django, Django REST Framework, and SQLite. The project lets users view a menu catalog, search and filter dishes, create new items, update existing records, and delete dishes from a working database-backed application.
-
-## Tech Stack
-
-### Frontend
-- React
-- JavaScript
-- CSS
-- Vite
-
-### Backend
-- Python
-- Django
-- Django REST Framework
-- django-cors-headers
-
-### Database
-- SQLite
-
-## Features
-# eMobilis Dishes
-
 A simple full-stack dish management CRUD application built with React and Django REST Framework.
 
 ## Tech Stack
@@ -103,6 +79,22 @@ npm run dev
 
 The frontend runs at `http://127.0.0.1:5173`.
 
+## Running the Project
+
+Start the backend in one terminal and the frontend in another:
+
+```bash
+# Terminal 1
+cd backend
+python manage.py runserver
+
+# Terminal 2
+cd frontend
+npm run dev
+```
+
+Open `http://127.0.0.1:5173` in a browser.
+
 ## API Endpoints
 
 Base URL: `http://127.0.0.1:8000/api`
@@ -146,4 +138,8 @@ python manage.py createsuperuser
 ```
 
 Then open `http://127.0.0.1:8000/admin/`.
+
+## Author
+
+Michael Onyango
 
